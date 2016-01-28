@@ -1,0 +1,15 @@
+{
+  "name": "@f/hash-str",
+  "description": "Simple, uniformly distributed 32-bit string hash",
+  "repository": "git://github.com/micro-js/hash-str.git",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish --access=public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "^4.2.2"
+  }
+}
